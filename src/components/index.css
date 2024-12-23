@@ -1,0 +1,173 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .simple-todos-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  .dark-mode .heading{
+    color: #ffffff;
+  }
+  
+  .todo-input,
+  .priority-select,
+  .search-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-btn,
+  .filter-btn,
+  .edit-btn,
+  .save-btn,
+  .delete-btn,
+  .dark-mode-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .filter-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .save-btn {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .dark-mode-btn {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .todos-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .title {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .due-date {
+    font-size: 0.8em;
+    color: #6c757d;
+  }
+  
+  .complete-checkbox {
+    margin-right: 10px;
+  }
+  
+  .priority-select {
+    margin-right: 10px;
+  }
+  
+  .edit-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .simple-todos-container {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .add-btn,
+  .dark-mode .filter-btn,
+  .dark-mode .edit-btn,
+  .dark-mode .save-btn,
+  .dark-mode .delete-btn,
+  .dark-mode .dark-mode-btn {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode .todo-item {
+    background-color: #2a2a2a;
+    border-color: #555;
+  }
+  
+  .dark-mode .completed {
+    color: #bbbbbb;
+  }
+  
+  .dark-mode .due-date {
+    color: #bbbbbb;
+  }
+  
